@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv8Mr4kqVGRNSgIGL/F/
+    alDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51CK+w+/U6swU21m1vVx0SVK9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>
+                <i class="fa-solid fa-list-check"></i>
+                 To Do List
+            </h1>
+           <form class="input-area">
+    <input type="text" id="task-input" placeholder="Add a new task....">
+    <button type="submit" id="add-task-btn">ADD</button>
+    </form>
+
+    <div class="task-info">
+    <p>Total Task: <span id="task-count">0</span></p>
+    </div>
+
+    <div class="todos-container">
+    <ul id="task-list"></ul>
+    </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
